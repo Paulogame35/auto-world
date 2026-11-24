@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="AUTO WORLD — explore carros, compare modelos e descubra novidades do universo automotivo.">
+  <title>AUTO WORLD — O próximo capítulo começa aqui</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#" aria-label="AUTO WORLD início"><span class="brand-mark">A</span><span>AUTO<span class="brand-light">WORLD</span><small>PAIXÃO POR AUTOMÓVEIS</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a class="active" href="#inicio">Início</a><a href="#modelos">Modelos</a><a href="#marcas">Marcas</a><a href="#novidades">Novidades</a>
+        <a class="nav-cta" href="#modelos">Explorar carros <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-photo" role="img" aria-label="Carro esportivo em uma estrada ao entardecer"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="eyebrow"><span class="eyebrow-line"></span> MAIS QUE UM CARRO. UMA EXPERIÊNCIA.</div>
+        <h1>O próximo capítulo<br>começa <em>aqui.</em></h1>
+        <p>Explore máquinas extraordinárias, descubra novidades e encontre o carro que combina com seu caminho.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#modelos">Explorar modelos <span>↗</span></a><a class="text-link" href="#sobre">Conheça a AUTO WORLD <span>→</span></a></div>
+        <div class="hero-foot"><span><b>01</b> / 03</span><span class="hero-caption">DESIGN · PERFORMANCE · LIBERDADE</span></div>
+      </div>
+      <div class="hero-vertical">AUTO WORLD — AUTOMOTIVE CULTURE</div>
+    </section>
+
+    <section class="intro section-pad" id="sobre">
+      <div class="container intro-grid">
+        <div><div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> UNIVERSO AUTO WORLD</div><h2>Para quem vê<br>além do <em>volante.</em></h2></div>
+        <div class="intro-copy"><p class="lead">Um espaço feito para quem é apaixonado por automóveis.</p><p>Do design que chama atenção à tecnologia que transforma a direção: descubra modelos, compare características e acompanhe o que movimenta o mundo automotivo.</p><a class="under-link" href="#novidades">Descubra nosso universo <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="models section-pad" id="modelos">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> SELEÇÃO EM DESTAQUE</div><h2>Máquinas que <em>inspiram.</em></h2></div><a class="under-link light-link" href="#modelos">Ver seleção completa <span>↗</span></a></div>
+        <div class="filter-row" role="group" aria-label="Filtrar veículos">
+          <button class="filter active" data-filter="todos" type="button">Todos</button><button class="filter" data-filter="esportivo" type="button">Esportivos</button><button class="filter" data-filter="suv" type="button">SUVs</button><button class="filter" data-filter="eletrico" type="button">Elétricos</button>
+        </div>
+        <div class="car-grid">
+          <article class="car-card" data-category="esportivo"><a class="car-image car-one" href="#detalhes" aria-label="Ver detalhes do esportivo GT Concept"><span class="card-tag">CONCEITO</span><span class="image-arrow">↗</span></a><div class="car-info"><div><span class="car-type">ESPORTIVO · CONCEITO</span><h3>GT Concept</h3></div><span class="car-number">01</span></div><p>Linhas marcantes. Espírito livre.</p></article>
+          <article class="car-card" data-category="suv"><a class="car-image car-two" href="#detalhes" aria-label="Ver detalhes do SUV Urban X"><span class="card-tag">AVENTURA</span><span class="image-arrow">↗</span></a><div class="car-info"><div><span class="car-type">SUV · CONCEITO</span><h3>Urban X</h3></div><span class="car-number">02</span></div><p>Versatilidade para ir mais longe.</p></article>
+          <article class="car-card" data-category="eletrico"><a class="car-image car-three" href="#detalhes" aria-label="Ver detalhes do elétrico E-motion"><span class="card-tag">ELÉTRICO</span><span class="image-arrow">↗</span></a><div class="car-info"><div><span class="car-type">ELÉTRICO · CONCEITO</span><h3>E-Motion</h3></div><span class="car-number">03</span></div><p>Uma nova energia para o futuro.</p></article>
+        </div>
+        <p class="demo-note">Modelos e imagens ilustrativos para demonstração. Não representam ofertas comerciais.</p>
+      </div>
+    </section>
+
+    <section class="brands section-pad" id="marcas"><div class="container brands-inner"><div><div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> GRANDES NOMES</div><h2>Marcas que movem<br><em>histórias.</em></h2></div><div class="brand-list"><span>BMW</span><span>Mercedes-Benz</span><span>PORSCHE</span><span>AUDI</span><span>VOLVO</span><span>TOYOTA</span></div></div></section>
+
+    <section class="news section-pad" id="novidades"><div class="container"><div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> NA PISTA E FORA DELA</div><h2>Novidades em <em>movimento.</em></h2></div><span class="news-counter">AUTO WORLD / JOURNAL</span></div><div class="news-grid"><article class="news-card"><div class="news-image news-one"></div><span class="news-category">TECNOLOGIA</span><h3>O futuro da mobilidade está em transformação</h3><p>Inovação, conectividade e novas ideias estão redesenhando a experiência ao volante.</p><a href="#novidades" class="under-link">Em breve <span>↗</span></a></article><article class="news-card"><div class="news-image news-two"></div><span class="news-category">ESTILO & DESIGN</span><h3>Quando o design encontra a performance</h3><p>Detalhes, proporções e personalidade fazem cada projeto contar uma história.</p><a href="#novidades" class="under-link">Em breve <span>↗</span></a></article></div></div></section>
+
+    <section class="closing"><div class="container closing-inner"><div class="eyebrow"><span class="eyebrow-line"></span> SUA PRÓXIMA DESCOBERTA</div><h2>O caminho é seu.<br><em>A paixão também.</em></h2><a class="button button-primary" href="#modelos">Explore a AUTO WORLD <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><a class="brand" href="#inicio"><span class="brand-mark">A</span><span>AUTO<span class="brand-light">WORLD</span><small>PAIXÃO POR AUTOMÓVEIS</small></span></a><p>O universo automotivo em um só lugar.</p><a href="#inicio" class="back-top">VOLTAR AO TOPO ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> AUTO WORLD. Projeto demonstrativo.</span><span>FEITO PARA QUEM AMA DIRIGIR.</span></div></footer>
+</body>
+</html>
